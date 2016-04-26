@@ -23,6 +23,8 @@ namespace TestConsole
                 Console.WriteLine("{0}name:{1}", i, user.UserName);
             }
 
+            DependencyProvider.ReleaseAllDependency();
+
             Console.ReadKey();
         }
     }
